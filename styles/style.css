@@ -15,10 +15,41 @@ body {
     border: none;
 }
 
+body,
+html {
+    overflow-x: hidden;
+}
+
 .header_banner_color {
     background-color: #FFFBF0;
 }
 
 .banner-title-color {
     color: #FABE4C;
+}
+
+.img-background-color {
+    background-color: #F1F1F1;
+}
+
+.section-height {
+    min-height: 100%;
+}
+
+.cloth-section-text-color {
+    color: #FABE4C;
+}
+
+.contact-logo {
+    width: 78px;
+    height: 82px;
+}
+
+@media only screen and (min-width:1024px) and (max-width:1280px) {
+    .cloth-section-mq {
+        min-width: 100%;
+    }
+    .card-size {
+        max-width: 100%;
+    }
 }

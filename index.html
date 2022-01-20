@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <!-- header part -->
     <section id="home" class="h-100">
         <header class="container-fluid header_banner_color">
             <nav class="navbar navbar-expand-lg navbar-light py-3">
@@ -26,22 +27,23 @@
 
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ms-auto fs-5">
-                            <a class="nav-link active me-2" aria-current="page" href="#">Home</a>
-                            <a class="nav-link me-2" href="#">Product</a>
+                            <a class="nav-link active me-2" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link me-2" href="#cloth">Product</a>
                             <a class="nav-link me-2" href="#">About</a>
-                            <a class="nav-link me-2" href="#">Contact</a>
+                            <a class="nav-link me-2" href="#contact">Contact</a>
 
                         </div>
                     </div>
                 </div>
             </nav>
-            <div class="container h-100">
+            <!-- banner part -->
+            <div id="home" class="container h-100">
                 <div class="row d-flex align-items-center justify-content-center g-5">
                     <div class="col-lg-6">
                         <h1 class="display-1 text-uppercase banner-title-color">Be the Penguins of <span class="text-dark">Winter</span></h1>
                         <p class="fs-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque, id eaque aut a soluta expedita ea et fugiat iusto?</p>
-                        <button type="button" class="btn common-buttons px-3"><a class="text-decoration-none text-white fs-4" href="#"><i class="fas fa-shopping-cart fs-4"></i>Buy Now</a></button>
-                        </button>
+
+                        <button type="button" class="btn common-buttons px-3 d-flex align-items-center justify-content-center"><div class="me-2"><a class="text-decoration-none text-white fs-4" href="#">Buy Now</a></div class="ms-2"><div class="text-white"><i class="fas fa-shopping-cart fs-4"></i></div></button>
                     </div>
                     <div class="col-lg-6">
                         <div>
@@ -52,7 +54,138 @@
             </div>
         </header>
     </section>
+    <!-- woman cloth part -->
+    <section id="cloth" class="container section-height cloth-section-mq">
+        <div class="row section-height d-flex align-items-center justify-content-center g-3">
+            <div class="mt-5 text-center">
+                <h1 class="text-uppercase">Woman Jackets</h1>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card p-3 shadow-lg p-3 mb-5 bg-body rounded card-size" style="width: 18rem;">
+                    <img class="img-background-color" src="./images/jacket-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Yellow Coat Jacket </h3>
+                        <p class="card-text fs-5 text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="fs-4 cloth-section-text-color fw-bold">$120</p>
+                        <button type="button" class="btn common-buttons px-3 d-flex align-items-center justify-content-center"><div class="me-2"><a class="text-decoration-none text-white fs-4" href="#">Buy Now</a></div><div class="ms-2 text-white"><i class="fas fa-shopping-cart fs-4"></i></div></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card p-3 shadow-lg p-3 mb-5 bg-body rounded card-size" style="width: 18rem;">
+                    <img class="img-background-color" src="./images/jacket-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Yellow Coat Jacket </h3>
+                        <p class="card-text fs-5 text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="fs-4 cloth-section-text-color fw-bold">$120</p>
+                        <button type="button" class="btn common-buttons px-3 d-flex align-items-center justify-content-center"><div class="me-2"><a class="text-decoration-none text-white fs-4" href="#">Buy Now</a></div><div class="ms-2 text-white"><i class="fas fa-shopping-cart fs-4"></i></div></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card p-3 shadow-lg p-3 mb-5 bg-body rounded card-size" style="width: 18rem;">
+                    <img class="img-background-color" src="./images/jacket-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Yellow Coat Jacket </h3>
+                        <p class="card-text fs-5 text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="fs-4 cloth-section-text-color fw-bold">$120</p>
+                        <button type="button" class="btn common-buttons px-3 d-flex align-items-center justify-content-center"><div class="me-2"><a class="text-decoration-none text-white fs-4" href="#">Buy Now</a></div><div class="ms-2 text-white"><i class="fas fa-shopping-cart fs-4"></i></div></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- man cloth part -->
+    <section class="container section-height cloth-section-mq">
+        <div class="row section-height d-flex align-items-center justify-content-center g-3">
+            <div class="mt-5 text-center">
+                <h1 class="text-uppercase">Woman Jackets</h1>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card p-3 shadow-lg p-3 mb-5 bg-body rounded card-size" style="width: 18rem;">
+                    <img class="img-background-color" src="./images/jacket-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Yellow Coat Jacket </h3>
+                        <p class="card-text fs-5 text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="fs-4 cloth-section-text-color fw-bold">$120</p>
+                        <button type="button" class="btn common-buttons px-3 d-flex align-items-center justify-content-center"><div class="me-2"><a class="text-decoration-none text-white fs-4" href="#">Buy Now</a></div><div class="ms-2 text-white"><i class="fas fa-shopping-cart fs-4"></i></div></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card p-3 shadow-lg p-3 mb-5 bg-body rounded card-size" style="width: 18rem;">
+                    <img class="img-background-color" src="./images/jacket-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Yellow Coat Jacket </h3>
+                        <p class="card-text fs-5 text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="fs-4 cloth-section-text-color fw-bold">$120</p>
+                        <button type="button" class="btn common-buttons px-3 d-flex align-items-center justify-content-center"><div class="me-2"><a class="text-decoration-none text-white fs-4" href="#">Buy Now</a></div><div class="ms-2 text-white"><i class="fas fa-shopping-cart fs-4"></i></div></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card p-3 shadow-lg p-3 mb-5 bg-body rounded card-size" style="width: 18rem;">
+                    <img class="img-background-color" src="./images/jacket-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Yellow Coat Jacket </h3>
+                        <p class="card-text fs-5 text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="fs-4 cloth-section-text-color fw-bold">$120</p>
+                        <button type="button" class="btn common-buttons px-3 d-flex align-items-center justify-content-center"><div class="me-2"><a class="text-decoration-none text-white fs-4" href="#">Buy Now</a></div><div class="ms-2 text-white"><i class="fas fa-shopping-cart fs-4"></i></div></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- contact part -->
+    <section id="contact" class="container section-height mt-5">
+        <div class="row g-3">
+            <div class="col-lg-6">
+                <div class="row g-5">
+                    <div class="col-12 d-flex align-items-center justify-content-center">
+                        <div>
+                            <img class="img-fluid contact-logo" src="./images/box.png" alt="">
+                        </div>
+                        <div class="ms-3">
+                            <h3>Find the Perfect Fit</h3>
+                            <p>Everybody is different, which is why we offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex align-items-center justify-content-center">
+                        <div>
+                            <img class="img-fluid contact-logo" src="./images/box.png" alt="">
+                        </div>
+                        <div class="ms-3">
+                            <h3>Find the Perfect Fit</h3>
+                            <p>Everybody is different, which is why we offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex align-items-center justify-content-center">
+                        <div>
+                            <img class="img-fluid contact-logo" src="./images/question.png" alt="">
+                        </div>
+                        <div class="ms-3">
+                            <h3>Contact Our Seller</h3>
+                            <p>They are here to help you. That's quite literally what we pay them for.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div>
+                    <img class="img-fluid" src="./images/shopping.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid mt-5">
+        <footer class="bg-dark d-flex align-items-center justify-content-center">
+            <div calss="">
+                <p class="text-white mt-4">&copy; copyright all are deserve by penguin-fahion</p>
+            </div>
+        </footer>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
